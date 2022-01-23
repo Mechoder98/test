@@ -1,0 +1,177 @@
+.header{
+text-align: center;
+    background-color: #556;
+    box-shadow: 0 10px 10px 0 black;
+    height: 200px;
+    font-size: 100px;
+    color: white;
+    font-family: cursive;
+    text-shadow: 10px 10px 5px black;
+    max-width: 1700px;
+    
+}
+
+.spn{
+    font-size: 20px; 
+    position: relative; 
+    top: 40px; 
+    right: 200px; 
+    color: yellow;
+
+}
+
+@media (max-width: 1400px){
+
+    .header{
+        font-size: 50px;
+    }
+
+  img{
+
+    width: 150px;
+  }
+
+  div .goa-hotel{
+
+    width: 150px;
+  }
+
+  div .signupchild{
+
+    font-size: 20px;
+  }
+
+  .spn{
+      font-size: 12px;
+  }
+
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+    align-content: stretch;
+    max-height: 1200px;
+    box-shadow: 0 10px 10px 0;
+    max-width: 1600px;
+  
+}
+
+ 
+.main>div{
+
+ max-width: 30%;
+ text-align: justify;
+
+}
+
+.context{
+
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+.signup{
+
+    background-color: rgb(63, 63, 223);
+    width: 40%;
+    height: 1200px;
+    
+}
+
+.signupchild{
+    display: flex;
+   background-color: red;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    text-align: center;
+   text-shadow: 1px 1px 1px;
+    color: yellow;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+.signupchild div:hover{
+
+    background-color: darkblue;
+    cursor: pointer;
+    color: cornsilk;
+}
+
+.signupchild div:active{
+    background-color: purple ;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    background-color: #555;
+    font-family: cursive;
+    color: palegreen;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.goa-hotel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   border: 3px solid black;
+    height: 650px;
+    width: 275px;
+}
+
+.logo{
+    border-radius: 60%;
+    width: 30px;
+    height: 30px;
+   position: absolute;
+   top: 1570px;
+   left: 650px;
+
+}
+.logo1{
+    border-radius: 60%;
+    width: 30px;
+    height: 30px;
+   position: absolute;
+   top: 1570px;
+   left: 750px;
+
+}
+
+.logo2{
+    border-radius: 60%;
+    width: 30px;
+    height: 30px;
+   position: absolute;
+   top: 1570px;
+   left: 850px;
+
+}
+
+.link{
+    text-decoration: none;
+    display: block;
+}
+
+/* To test writing on top of image*/
+
+.test{
+
+    position: relative;
+    opacity: 0.8;
+}
+
+
+.test1{
+
+    position: absolute;
+    top: 20px;
+}
+
+
