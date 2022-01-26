@@ -1,4 +1,4 @@
-let x, y, z, sum;
+let x, y, z, sum, a;
 
 x = 360;
 
@@ -6,6 +6,8 @@ y = 400;
 
 z = 600;
 
-sum = x + y + z;
+a = 100;
 
-console.log("sum of x, y, and z is " sum)
+sum = x + y + z + a;
+
+console.log("sum of x, y, a and z is " +sum)
