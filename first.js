@@ -8,4 +8,4 @@ z = 600;
 
 sum = x + y + z;
 
-console.log("sum of x, y, and z is " +sum)
+console.log("sum of x, y, and z is " sum)
