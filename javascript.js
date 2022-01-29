@@ -6,7 +6,7 @@ y = 7;
 
 z = 9;
 
-sum = (x + y) / z;
+sum = (x + y) * z;
 
 console.log("product of x, y, and z is " +sum)
 
