@@ -71,7 +71,7 @@ let f = (c * (9/5)) + 32;
 alert("Temperature in Fahrenhit is " +f);
 
 
-let a = prompt("Enter first number ");
+/*let a = prompt("Enter first number ");
 
 let b = prompt("Enter the second number ");
 
@@ -86,11 +86,10 @@ a = temp2;
 b = temp1;
 
 
-console.log("a and b are" +a, +b);
+console.log("a and b are" +a, +b);*/
 
 
-
-
+// swap two numbers version 1
 
 let a = prompt("Enter first number ");
 
@@ -102,5 +101,51 @@ a = b;
 
 b = temp;
 
+console.log("a and b are " +a, +b);
 
-console.log("a and b are" +a, +b);
+// version 2
+
+let number1 = prompt("Enter first number ");
+
+let number2 = prompt("Enter the second number ");
+
+let temp = number1;
+
+number1 = number2;
+
+number2 = temp;
+
+console.log("number 1 and number 2 are " +number1, +number2);
+
+// version 3
+
+let number1 = prompt("Enter first number ");
+
+let number2 = prompt("Enter the second number ");
+
+let temp = number1;
+
+number1 = number2;
+
+number2 = temp;
+
+console.log("number 1 " +number1);
+
+console.log("number 2  " +number2);
+
+
+// best version 4
+
+let  a = prompt("Enter the value of a ");
+
+let b = prompt("enter the value of b ");
+
+let c = a;
+
+a = b;
+
+b = c ;
+
+console.log("value of a is " +a);
+
+console.log("value of b is " +b);

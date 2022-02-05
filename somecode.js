@@ -79,4 +79,3 @@ function greet(){
 greet(); // calling function
 
 
-$(person)
