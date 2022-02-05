@@ -1,0 +1,40 @@
+*{
+
+    margin: 0px;
+}
+
+.sidebar>ul{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.sidebar> ul li{
+
+   /*list-style: none;*/
+   margin: 0;
+   display: inline;
+   margin-right: 20px;
+   padding: 20px;  
+  
+}
+
+.sidebar> ul li a{
+
+    text-decoration: none;
+    color: lightyellow;
+    height: 40px;
+}
+
+.sidebar{
+
+    background-color: lightcoral;
+    padding: 20px;
+    
+}
+
+.sidebar>ul li:hover{
+    background-color: lightgreen;
+    padding: 20px;
+}

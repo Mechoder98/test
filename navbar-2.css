@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu>ul{
+
+    margin: 0px;
+    padding: 0;
+}
+
+.menu> ul li{
+
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu>ul li a{
+    text-decoration: none;
+    color: lime;
+}
+
+.menu{
+
+    background-color: maroon;
+}

@@ -67,11 +67,16 @@ function Myfunction (f1, f2){
 
 console.log(Myfunction(2, 8));
 
+
+// simple function
+
 function greet(){
 
     console.log("hey Folks");
 
 }
 
-greet();
+greet(); // calling function
 
+
+$(person)

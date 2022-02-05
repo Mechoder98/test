@@ -1,3 +1,13 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header section start */
+
 .header{
 
     background-color: blue;
@@ -6,37 +16,375 @@
     font-family: cursive;
     font-size: 40px;
     text-align: center;
-    height: 150px;
+    height: 130px;
 }
 
 #tag{
 
     font-size: 13px;
-    position: absolute;
-    top: 60px;
     display: block;
-    left: 800px;
+   /* left: 800px;*/
+   width: 380px;
+   margin: auto;
     color: rgb(243, 187, 84);
+  /*  border: 1px solid black;*/
+    /*text-align: center;*/
 }
+
+p>span{
+    display: block;
+   text-align: right;
+}
+
+/*  login section start */
 
 .signpart{
+    font-size: 20px;
+    width: 130px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.signpart div a{
+
+    text-decoration: none;
+    color: aliceblue;
+}
+
+div a:hover{
+
+    color: lightblue;
+}
+
+/*  login section end */
+/* Header section end */
+
+
+
+/* Side bar section start */
+
+.menubar>ul li{
+
+    display: inline;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+.menubar>ul li a{
+    text-decoration: none;
+    color: lightgreen;
+    width: 200px;
+}
+
+.menubar{
+    background-color: darkblue;
+    padding: 10px;
+    width: 100%;
+}
+
+.menubar> ul li:hover{
+
+    background-color: black;
+    padding: 10px;
+    cursor: pointer;
+
+   
+}
+
+.menubar>a{
+
+    display: block;
+}
+
+
+
+/* Side bar section end */
+
+
+/* content Section start */
+
+.container{
 
     display: flex;
-    flex-direction: row;
-    margin-top: 100px;
-    font-size: 20px;
+    flex-direction: column;
+    width: 100%;
+   
+}
+
+/* container 1 Section start */
+
+.cont1{
+
+    height: 640px;
+    width: 100%;
+}
+
+.cont1-desc{
+
+    font-family: cursive;
+    font-size: 25px;
+    background-color: #374787;
+    text-align: center;
+    color: cornsilk;
+
+}
+
+/* cont1 card Section start */
+
+.cardmain{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card1{
+
+    background-color: #aaabb8;
+    width: 50%;
+    height: 300px;
+   /* box-shadow: 0px 5px 10px 0px;*/
+    font-size:18px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+}
+.card2{
+
+    background-color: #2e9cca;
+    width: 50%;
+    height: 300px;
+    font-size:18px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+}
+
+.card3{
+
+    background-color: #25274d;
+    width: 50%;
+    height: 304px;
+    font-size:18px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+
+}
+.card4{
+
+    background-color: #29648a;
+    width: 50%;
+    height: 304px;
+    font-size:18px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+}
+
+/* cont1 card Section end */
+
+/* container 1 Section end */
+
+
+.cont2{
+    width: 100%;
+    height: 600px;
+    
+    
+}
+
+.cont2>img{
+    
+    float: right;
+    width: 30%;
+    margin: 12px;
+    border-radius: 10px;
+    clear: both;
+}
+
+.engihead{
+
+    font-size: 25px;
+    text-align: center;
+    font-family: cursive;
+    color: #1c3334;
+    font-weight: bold;
+    background-color: #d8c3a5;
+}
+
+.engi-card1{
+    background-color: #05386b;
+    width: 100%;
+    height: 280px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+   
+}
+.engi-card2{
+    background-color: #05386b;
+    width: 100%;
+    height: 280px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+   
+}
+
+
+.cont3{
+    width: 100%;
     border: 1px solid black;
-    width: 300px;
-    position: absolute;
-    left: 300px;
-    margin-left: 10px;
+    height: 600px;
 }
-.sub-sign{
-    border: 2px solid red;
+
+.cont4{
+    width: 100%;
+    border: 1px solid black;
+    height: 600px;
 
 }
 
-.signpart>a{
-    text-decoration: none;
-    color: peachpuff;
+
+
+/* content Section end */
+
+/* Media query section start */
+
+/* layout-2 start*/
+
+@media all and (max-width: 1400px){
+
+    .header{
+
+        background-color: rgb(243, 39, 39);
+        font-size: 35px;
+        text-align: center;
+        height: 100px;
+        width: 100%;
+
+    }
+
+    #tag{
+
+        font-size: 13px;
+        display: block;
+        width: 330px;
+       margin: auto;
+        color: rgb(243, 187, 84);
+     
+    }
+
+    .signpart{
+        
+        margin-top: 5px;
+        
+    }
+
+/* side bar section start */
+
+.menubar{
+    background-color: darkblue;
+    padding: 5px;
+    font-size: 12px;
+    
 }
+
+.menubar>ul li{
+
+    
+    margin-right: 0px;
+    padding: 5px;
+   
+}
+.menubar> ul li:hover{
+
+    background-color: black;
+    padding: 5px;
+    
+   
+}
+
+
+/* side bar section end */
+
+}
+
+/* layout-2 end*/
+
+/* layout-3 start*/
+
+@media all and (max-width: 600px){
+
+    .header{
+
+        background-color: rgb(58, 53, 53);
+        font-size: 30px;
+        text-align: center;
+        height: 100px;
+        width: 100%;
+
+    }
+
+    #tag{
+
+        font-size: 10px;
+        width: 235px;
+        
+    }
+
+    .signpart{
+        font-size: 15px;
+        width: 100px;
+        margin-top: 20px;
+       
+    
+    }
+
+
+/* side bar section start */
+
+.menubar>ul li{
+
+    margin-right: 0px;
+    display: block;
+    
+}
+
+.menubar{
+
+    padding: 10px;
+   display: flex;
+   justify-content: center; 
+}
+
+.menubar> ul li:hover{
+
+    background-color: black;
+    padding: 5px;
+    
+   
+}
+
+/* side bar section end */
+
+}
+
+/* layout-3 end*/
+/* Media query section end */
+
+
