@@ -29,6 +29,16 @@ const full_name = first_name + " " + last_name;
 console.log("Full name is " +full_name)
 
 
+//using backticks
+
+
+const first_name = prompt("Enetr you first name")
+
+const last_name = prompt("Enet your last name")
+
+const full_name = first_name + " " + last_name;
+
+console.log(`Full name is ${full_name}`);
 
 
 // discount price
