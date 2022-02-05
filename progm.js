@@ -2,7 +2,7 @@
 // Takes User name and prints full name
 
 const Name = prompt("Enter your first name");
-const lname = prompt("enter your last name");
+const lname = prompt("Enter your last name");
 
 alert("full name is" +full_name)
 
@@ -32,9 +32,9 @@ console.log("Full name is " +full_name)
 //using backticks
 
 
-const first_name = prompt("Enetr you first name")
+const first_name = prompt("Enter you first name")
 
-const last_name = prompt("Enet your last name")
+const last_name = prompt("Enter your last name")
 
 const full_name = first_name + " " + last_name;
 
